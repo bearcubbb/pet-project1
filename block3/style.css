@@ -1,0 +1,95 @@
+/* п о з и ц и о н и р о в а н и е */
+
+/* б л о ч н а я  м о д е л ь */
+
+.block3__block__our-culture-main {
+    display: grid;
+    grid-template-areas: "osnova osnova aside"
+        "osnova osnova aside"
+        "osnova osnova aside";
+    grid-template-columns: 1fr 1fr 30%;
+    gap: 1rem;
+}
+
+.block3__block__our-culture {
+    grid-area: osnova;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.block3__text__indonesian-culture {
+    display: flex;
+    flex-direction: row;
+}
+
+.block3__text__indonesian-culture img {
+    width: 72px;
+    height: 2px;
+    flex-shrink: 0;
+
+    margin-top: 11px;
+}
+
+.block3__h1__our-culture {
+    width: 555px;
+}
+
+aside img {
+    width: 578.488px;
+    height: 720px;
+    flex-shrink: 0;
+}
+
+/* т и п о г р а ф и к а */
+
+/*задаем шрифт всему тексту в блоке 3*/
+.block3__block__our-culture p,
+.block3__block__our-culture h1 {
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+#block3__text__known-400-weight {
+    font-weight: 400;
+    width: 632px;
+}
+
+.block3__text__indonesian-culture p {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    letter-spacing: 6px;
+
+    padding-left: 24px;
+}
+
+.block3__text__indonesian-culture {
+    width: 304px;
+    height: 25px;
+}
+
+.block3__block__our-culture h1 {
+    font-size: 64px;
+}
+
+.block3__text__indonesian-culture p,
+.block3__button__read-more {
+    color: #FBD784;
+}
+
+/* о ф о р м л е н и е */
+
+.block3__block__our-culture-main {
+    background-color: #000000;
+}
+
+.block3__block__our-culture h1,
+.block3__text__known-for-his-politeness {
+    color: #FFFFFF;
+}
+
+/* а н и м а ц и я */
+
+/* р а з н о е */

@@ -1,0 +1,630 @@
+@font-face {
+    font-family: 'Open Sans'sans-serif;
+    src: url();
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    width: 100%;
+    height: 721px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+
+
+.container_image {
+    width: 598px;
+    height: 720px;
+    padding-top: 1px;
+
+
+
+}
+
+.container_text_title {
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.container_text {
+    width: 632px;
+    height: 546px;
+    color: #FFFFFF;
+    margin: 80px 0 80px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+
+.container_line {
+    width: 399px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.container_line_img {
+    display: flex;
+    align-items: center;
+}
+
+.container_link {
+    text-decoration: none;
+    color: #FBD784;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.container_link:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 50%;
+    }
+
+    .container_image {
+        width: 100px;
+        height: 200px;
+
+    }
+
+    .container_text {
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 30%;
+        flex-direction: column;
+
+    }
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* block 2 start*/
+
+.section_2 {
+    display: flex;
+    width: 100%;
+    height: 985px;
+    justify-content: center;
+    margin: 250px 0 0 0;
+}
+
+.section_2 {
+    background: url("../assets/images/image_2.png") lightgray 50% / cover no-repeat;
+}
+
+.block_2_content {
+    flex-direction: row;
+    width: 1461px;
+    height: 985px;
+}
+
+.block_2_frame_1 {
+    display: flex;
+    gap: 1329px;
+    width: 1389px;
+    height: 30px;
+    margin: 463px 31px 52.27px 41px;
+}
+
+.left_sigh,
+.right_sigh {
+    color: rgba(255, 255, 255, 1);
+    width: 12.37px;
+    height: 21.21px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.left_sigh:hover {
+    transform: scale(1.2);
+}
+
+.right_sigh:hover {
+    transform: scale(1.2);
+}
+
+.frame_bromo {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.block_2_line_1 {
+    display: flex;
+    width: 72px;
+    height: 2px;
+    background: var(--Accent, #FBD784);
+    justify-self: center;
+    margin: 0 0 0 582.5px;
+}
+
+.bromo {
+    display: flex;
+    color: var(--Accent, #FBD784);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    width: 94px;
+    height: 25px;
+    margin: 0 29px 0 29px;
+}
+
+.block_2_line_2 {
+    display: flex;
+    width: 72px;
+    height: 2px;
+    background: var(--Accent, #FBD784);
+    justify-self: center;
+}
+
+.block_2_hedline {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 705px;
+    height: 174px;
+    margin: 24.11px 0 0 378.5px;
+}
+
+.block_2_text {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+
+    width: 934px;
+    height: 96px;
+    margin: 27px 0 0 264.5px;
+}
+
+.block_2_frame_2 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.block_2_frame_2:hover {
+    transform: scale(1.2);
+}
+
+.reed_more {
+    display: flex;
+    color: var(--Accent, #FBD784);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 39px 9px 0 667.5px;
+    width: 94px;
+    height: 25px;
+}
+
+
+.arrow {
+    width: 24px;
+    height: 16px;
+    margin: 42px 0 0 0;
+}
+
+/*block 2 finish*/
+/*block 3*/
+
+/* п о з и ц и о н и р о в а н и е */
+
+/* б л о ч н а я  м о д е л ь */
+
+.block3__block__our-culture-main {
+    display: grid;
+    grid-template-areas: "osnova osnova aside"
+        "osnova osnova aside"
+        "osnova osnova aside";
+    grid-template-columns: 1fr 1fr 42%;
+    gap: 1rem;
+
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 228px;
+    padding-right: 229px;
+
+    max-width: 100%;
+}
+
+.block3__block__our-culture {
+    grid-area: osnova;
+    height: 488px;
+
+    padding-right: 210px;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.block3__text__indonesian-culture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 27px;
+}
+
+.block3__text__indonesian-culture img {
+    display: flex;
+    width: 72px;
+    height: 2px;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+
+.block3__h1__our-culture {
+    width: 555px;
+
+    padding-bottom: 27px;
+}
+
+.block3__text__known-for-his-politeness {
+    padding-bottom: 27px;
+}
+
+.block3__button__read-more a {
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.block3__button__read-more img {
+    margin-left: 9px;
+}
+
+aside img {
+    width: 578.488px;
+    height: 720px;
+    flex-shrink: 0;
+}
+
+/* т и п о г р а ф и к а */
+
+/*задаем шрифт всему тексту в блоке 3*/
+.block3__block__our-culture p,
+.block3__block__our-culture h1 {
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+#block3__text__known-400-weight {
+    font-weight: 400;
+    width: 632px;
+    height: 96px;
+    line-height: 32px;
+}
+
+.block3__text__indonesian-culture p {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    letter-spacing: 6px;
+
+    padding-left: 24px;
+}
+
+.block3__text__indonesian-culture {
+    width: 410px;
+    height: 25px;
+}
+
+.block3__block__our-culture h1 {
+    font-size: 64px;
+}
+
+.block3__text__indonesian-culture p,
+.block3__button__read-more {
+    color: #FBD784;
+}
+
+.block3__text__read-more a {
+    width: 119px;
+}
+
+/* о ф о р м л е н и е */
+
+.block3__block__our-culture-main {
+    background-color: #000000;
+}
+
+.block3__block__our-culture h1,
+.block3__text__known-for-his-politeness {
+    color: #FFFFFF;
+}
+
+/* а н и м а ц и я */
+
+.block3__button__read-more a:hover {
+    transform: scale(1.2);
+}
+
+/* р а з н о е */
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+
+    .block3__block__our-culture-main {
+        display: grid;
+        grid-template-areas: "osnova"
+            "osnova"
+            "osnova"
+            "osnova"
+            "aside";
+        grid-template-columns: 1fr 1fr 1fr 20% 30%;
+        gap: 1rem;
+    }
+
+    /* стили для компьютера при уменьшении экрана */
+    aside {
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* стили для планшета и широкого, среднего, малого смартфонов */
+    .block3__block__our-culture-main {
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 2em;
+    }
+
+    /*шрифты размеры*/
+
+    .block3__text__indonesian-culture p {
+        font-size: 18px;
+    }
+
+    .block3__h1__our-culture h1 {
+        font-size: 30px;
+    }
+
+    #block3__text__known-400-weight {
+        font-size: 14px;
+    }
+
+    .block3__button__read-more a {
+        font-size: 14px;
+    }
+
+    aside img {
+        max-height: 500px;
+        max-width: fit-content;
+
+        padding-top: 1.5vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* стили для картинки для планшета и широкого, среднего, малого смартфонов*/
+    aside img {
+        max-height: 300px;
+        max-width: fit-content;
+    }
+
+    aside {
+        padding-top: 5vh;
+    }
+
+    /*шрифты размеры*/
+
+    .block3__text__indonesian-culture p {
+        font-size: 14px;
+    }
+
+    .block3__h1__our-culture h1 {
+        font-size: 25px;
+    }
+
+    #block3__text__known-400-weight {
+        font-size: 13px;
+    }
+
+    .block3__button__read-more a {
+        font-size: 13px;
+
+        padding-top: 5vh;
+    }
+
+    .block3__block__our-culture,
+    .block3__h1__our-culture,
+    .block3__text__known-for-his-politeness {
+        max-width: fit-content;
+        min-width: 50vw;
+    }
+}
+
+
+.footer__site {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.container__footer h2 {
+    font-size: 48px;
+    font-weight: 700px;
+}
+
+.near-btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.near-btn__text {
+    font-size: 22px;
+}
+
+.near-btn__btn {
+    background-color: #FFA343;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 27px 70px;
+}
+
+.near-btn__btn:hover {
+    cursor: pointer;
+}
+
+.footer__menu_title {
+    color: #FFD1A0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.footer_menu_list {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.footer__menu-item+.footer__menu-item {
+    padding-top: 20px;
+}
+
+.footer__menu {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.search__footer_btn {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    height: 70px;
+}
+
+.search__footer h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 49px;
+    max-width: 400px
+}
+
+.container__footer {
+    border-bottom: 0.14px solid;
+    border-bottom-color: #FFFFFF;
+}
+
+.search__footer {
+    display: grid;
+    grid-template-rows: 1fr min-content;
+}
+
+.search__imput {
+    background-color: #000000;
+    color: white;
+
+}
+
+.search__btn {
+    background-color: #FFA343;
+    border-radius: 5px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__links_left {
+    display: flex;
+    gap: 50px;
+}
+
+.info__links_right {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.copirights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
